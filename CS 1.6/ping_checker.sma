@@ -27,5 +27,5 @@ public get_user_ping_func(id) {
 
 public plugin_end() {
 	new plugin_end_string[] = "Плагин [%s] выгружен. Автор: %s"
-	server_print(plugin_init_string, PLUGIN, AUTHOR)
+	server_print(plugin_end_string, PLUGIN, AUTHOR)
 }
