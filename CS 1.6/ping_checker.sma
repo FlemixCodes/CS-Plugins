@@ -22,7 +22,8 @@ public get_user_ping_func(id) {
 	
 	get_user_ping(id, user_ping, user_loss)
 	
-	ColorChat(id, GREEN, "^1Ваш пинг: ^3%d^r^1Потеря пакетов: ^3%d", user_ping, user_loss)
+	ColorChat(id, GREEN, "^1Ваш пинг: ^3%d", user_ping)
+	ColorChat(id, GREEN, "^1Потеря пакетов: ^3%d", user_loss)
 }
 
 public plugin_end() {
