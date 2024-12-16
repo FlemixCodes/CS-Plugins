@@ -10,7 +10,7 @@ public plugin_init() {
 	register_plugin(PLUGIN, VERSION, AUTHOR)
 
 	register_clcmd("say /ping", "get_user_ping_func")
-	register_clcmd("ping" "get_user_ping_func")
+	register_clcmd("ping", "get_user_ping_func")
 	
 	new plugin_init_string[] = "Плагин [%s] загружен. Автор: %s"
 	server_print(plugin_init_string, PLUGIN, AUTHOR)
